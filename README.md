@@ -1,19 +1,15 @@
-base = int(input("enter base:"))
-exponent = int(input("enter exponent:"))
+#Write a program to find the sum of natural numbers.
+n= int(input("Enter value of terms: "))   
+
+sum = 0 
+i = 1
+while i<=n:
+    sum = sum + i
+    i = i + 1
+        
 
 
-result = 1
-
-
-count = 0
-
-
-while count<exponent:
-
-    result = result * base
-    count = count+ 1
-
-print("result:", result)
+print("\nSum =", sum)
 
 
 
