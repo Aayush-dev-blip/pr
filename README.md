@@ -1,15 +1,23 @@
-#Write a program to find the sum of natural numbers.
-n= int(input("Enter value of terms: "))   
 
-sum = 0 
-i = 1
-while i<=n:
-    sum = sum + i
-    i = i + 1
-        
+num = int(input("Enter a number: "))
 
 
-print("\nSum =", sum)
+temp = num
+
+
+count = 0
+
+
+if temp == 0:
+    count = 1
+else:
+    
+    while temp != 0:
+        temp = temp // 10  
+        count = count + 1  
+
+
+print("The number", num, "has", count, "digits.")
 
 
 
