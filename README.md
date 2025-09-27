@@ -1,9 +1,6 @@
-def check_even_odd():
-    number = int(input("Enter a number: "))
-    
-    if number % 2 == 0:
-        print("The number is Even.")
-    else:
-        print("The number is Odd.")
+age = int(input("Enter your age: "))
 
-check_even_odd()
+if 10 <= age <= 20:
+    print("Your age is between 10 and 20 years.")
+else:
+    print("Your age is NOT between 10 and 20 years.")
