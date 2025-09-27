@@ -1,7 +1,9 @@
-def weather_condition():
-    print("the weather is plesent  in",spring)
-    print("the weather is rainy in",autumn)
-spring = "autumn"
-autumn = "spring"
+def check_even_odd():
+    number = int(input("Enter a number: "))
+    
+    if number % 2 == 0:
+        print("The number is Even.")
+    else:
+        print("The number is Odd.")
 
-weather_condition()
+check_even_odd()
