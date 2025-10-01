@@ -1,6 +1,5 @@
-age = int(input("Enter your age: "))
+def cube(num):
+    return num*num*num
 
-if 10 <= age <= 20:
-    print("Your age is between 10 and 20 years.")
-else:
-    print("Your age is NOT between 10 and 20 years.")
+num = 15893458934589345743209179217391328478935271928753256873485793245082435908234352798324732903293729832952390509235752033920572
+print(f"the cube of {num} is {cube(num)}")
