@@ -1,5 +1,7 @@
-def cube(num):
-    return num*num*num
-
-num = 15893458934589345743209179217391328478935271928753256873485793245082435908234352798324732903293729832952390509235752033920572
-print(f"the cube of {num} is {cube(num)}")
+var = 10 
+while var>0:
+  var = var - 1 
+  if var == 5:
+    continue
+  print("\n current variable value :",var)
+print("\ngoodbye!")
